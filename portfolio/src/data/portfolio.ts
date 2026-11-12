@@ -1,0 +1,193 @@
+export const portfolio = {
+  name: 'Israt Jahan Chowdhury',
+  title: 'Software Engineer | AI/ML',
+  location: 'Dhaka, Bangladesh',
+  summary:
+    'CSE undergraduate at American International University-Bangladesh with a 3.82/4.00 CGPA and hands-on experience in web and backend development through academic projects. Skilled in NestJS, TypeScript, JavaScript, PHP, PostgreSQL, MySQL, and Git.',
+  intro:
+    'I am a software engineer with a strong foundation in software development, AI/ML, system design, and user-focused product thinking. I enjoy solving real-world problems through clean architecture, research-driven development, and thoughtful digital experiences.',
+  highlights: [
+    'B.Sc. in Computer Science & Engineering',
+    'Final Year Student',
+    'CGPA 3.82/4.00',
+    'Research-oriented problem solver',
+    'Open to impactful engineering roles',
+  ],
+  education: [
+    {
+      institution: 'American International University-Bangladesh (AIUB)',
+      degree: 'B.Sc. in Computer Science and Engineering',
+      major: 'Information Systems',
+      minor: 'Software Engineering',
+      cgpa: '3.82/4.00',
+      expectedGraduation: '2027',
+    },
+  ],
+  interests: [
+    'Photography',
+    'Travelling',
+  ],
+  skills: {
+    programming: ['C++', 'Java', 'C#', 'TypeScript', 'JavaScript', 'Python', 'PHP', 'HTML', 'JSON'],
+    frontend: ['React', 'HTML', 'CSS', 'Java Swing', 'Figma'],
+    backend: ['NestJS', 'TypeScript', 'REST APIs', 'DTO', 'class-validator', 'Node.js', 'JWT', 'Swagger', 'TypeORM'],
+    databases: ['SQL', 'PostgreSQL', 'MySQL', 'Oracle SQL', 'ERD', 'Normalization'],
+    ai: ['Machine Learning', 'Data Science', 'Research'],
+    tools: ['Git', 'GitHub', 'Postman', 'VS Code', 'Trello', 'UML', 'OpenGL', 'GLUT'],
+    dataAndOffice: ['Data Cleaning', 'Microsoft Office', 'Microsoft Excel'],
+    networkingAndOperatingSystems: ['Cisco Packet Tracer', 'Windows'],
+    softSkills: ['Communication', 'Teamwork', 'Time Management', 'Leadership'],
+  },
+  socials: {
+    github: 'https://github.com/IsratJahanChowdhury',
+    linkedin: 'https://www.linkedin.com/in/israt-jahan-chowdhury-6126aa420/',
+    cvUrl: '#contact',
+  },
+  experience: [
+    {
+      role: 'Software development projects',
+      company: 'Academic and team projects',
+      period: 'Project-based',
+      details: [
+        'Contributed to backend reservation workflows, role-based applications, database design, and user-facing project features.',
+        'Worked across NestJS, TypeScript, PHP, MySQL, Oracle SQL, Java, and C++ in collaborative academic teams.',
+        'Applied UML, requirements engineering, MVC, database normalization, Git workflows, and testing plans.',
+      ],
+    },
+    {
+      role: 'Research and development',
+      company: 'Applied AI/ML research and thesis work',
+      period: 'Ongoing',
+      details: [
+        'Contributed to research in underwater semantic segmentation, crop-yield prediction, and cardiac risk assessment.',
+        'Investigating graph neural networks for software vulnerability detection as an ongoing AIUB thesis.',
+        'Explored model comparison, data preparation, feature engineering, validation, and evaluation metrics.',
+      ],
+    },
+  ],
+  projects: [
+    {
+      name: 'DineSpace',
+      description: 'Multi-Restaurant Management & Ordering Platform • Backend — Reservation Module | Group Project',
+      stack: ['NestJS', 'TypeScript', 'PostgreSQL', 'TypeORM', 'JWT', 'Swagger'],
+      contributions: [
+        'Built the backend reservation workflow in a modular NestJS architecture, connecting reservation logic to PostgreSQL through TypeORM entities and repositories.',
+        'Used DTOs and class-validator for request validation, JWT for authenticated access, and Swagger for API documentation.',
+        'Added search, filtering, sorting, pagination, and logging to support maintainable reservation services.',
+      ],
+    },
+    {
+      name: 'Hospital Management System',
+      description: 'Hospital Management System • Patient Role | Group Project',
+      stack: ['Software Engineering', 'UML', 'Figma', 'GitHub', 'Trello'],
+      contributions: [
+        'Implemented the patient-side workflow covering appointments, admissions, medical records, medicines, tests, complaints, and billing.',
+        'Translated patient requirements into booking, cancellation, admission, medical history, prescription, ordering, and payment flows.',
+        'Worked with Waterfall planning, UML models, Figma wireframes, GitHub workflow, and testing plans.',
+      ],
+    },
+    {
+      name: 'Item Rental Management System',
+      description: 'Item Rental Management System • Renter Part | Group Project',
+      stack: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'AJAX'],
+      contributions: [
+        'Developed renter-side workflows in an MVC-based rental platform connected to MySQL.',
+        'Implemented item discovery, booking, cancellation, complaints, refund requests, payments, and reviews.',
+        'Worked with session-based user flows and database-driven operations.',
+      ],
+    },
+    {
+      name: 'Birth Record Management System',
+      description: 'Birth Record Management System • Database Design | Group Project',
+      stack: ['Oracle SQL', 'ERD', 'Normalization', 'Relational Algebra'],
+      contributions: [
+        'Designed and documented a relational database for children, parents, hospitals, doctors, deliveries, and health records.',
+        'Performed 1NF, 2NF, and 3NF normalization before final table creation.',
+        'Created joins, subqueries, aggregate queries, views, and sequences, and wrote relational algebra expressions.',
+      ],
+    },
+    {
+      name: 'AIUB Smart Service Hub',
+      description: 'AIUB Smart Service Hub • Requirements & System Design | Group Project',
+      stack: ['UML', 'Requirements Engineering', 'Trello', 'Figma'],
+      contributions: [
+        'Contributed to a centralized student-service platform covering tutor booking, Lost & Found, marketplace, clubs and events, emergency support, and an AI assistant.',
+        'Prepared the problem statement, solution description, solution-to-problem analysis, UML diagrams, and social-impact section.',
+      ],
+    },
+    {
+      name: 'Computer Graphics Game',
+      description: 'Computer Graphics Game • Stage 5 | Group Project',
+      stack: ['C++', 'OpenGL', 'GLUT'],
+      contributions: ['Implemented Stage 5 gameplay logic and interactive elements within the team\'s multi-stage OpenGL game.'],
+    },
+    {
+      name: 'Owsudh Chai',
+      description: 'Owsudh Chai • Patient Role | Group Project',
+      stack: ['Java', 'Java Swing', 'OOP'],
+      contributions: ['Developed the patient role and patient-facing screens and workflows using object-oriented and event-driven GUI concepts.'],
+    },
+  ],
+  research: [
+    {
+      title: 'Comparative Evaluation of Deep Learning Architectures for Underwater Semantic Segmentation Using the SUIM Dataset',
+      authorPosition: '3rd Author',
+      status: 'Published',
+      venue: 'ICIICE 2026 · Dubai, UAE · IEEE',
+      summary: 'Comparative study of SegFormer, SETR, Xception, GhostNet, Detectron2, and YOLOv11 using preprocessing, augmentation, transfer learning, and fine-tuning. Evaluated with Pixel Accuracy, Mean IoU, Dice Coefficient, and ROC-AUC.',
+      detail: 'Comparative study involving SegFormer, SETR, Xception, GhostNet, Detectron2, and YOLOv11, using preprocessing, augmentation, transfer learning, fine-tuning, and evaluation with Pixel Accuracy, Mean IoU, Dice Coefficient, and ROC-AUC.',
+      link: 'https://www.researchgate.net/publication/407327087_Comparative_Evaluation_of_Deep_Learning_Architectures_for_Underwater_Semantic_Segmentation_Using_the_SUIM_Dataset',
+    },
+    {
+      title: 'A Division-Sensitive Machine Learning Framework for Climate-Based Crop Yield Prediction in Bangladesh',
+      authorPosition: '2nd Author',
+      status: 'Submitted',
+      venue: '2025',
+      summary: 'Developed a Boro rice yield prediction framework using agro-climatic data from 2000–2024. Compared Extra Trees, Random Forest, Gradient Boosting, and XGBoost with feature engineering, robust scaling, tuning, and division-stratified 5-fold validation. Extra Trees achieved test R² = 0.9220 and RMSE = 0.1612.',
+      detail: 'Evaluated Extra Trees, Random Forest, Gradient Boosting, and XGBoost regression models. Applied feature engineering, lag-based yield features, robust scaling, hyperparameter tuning, and stratified 5-fold cross-validation based on regional divisions. Performed overall and division-wise evaluation using R², RMSE, and MAE.',
+    },
+    {
+      title: 'Design and Realization of a Moveable ECG Device Utilizing STM32F1 ARM Microcontroller',
+      authorPosition: '1st Author',
+      status: 'Submitted',
+      venue: '2025',
+      summary: 'Designed a portable cardiac monitor using STM32F103C8T6 with AD8232 ECG and MAX30102 heart-rate sensors. Added live ECG and heart-rate visualization on an OLED, with a focus on an affordable, scalable device for underserved areas.',
+      detail: 'Compared the proposed system with existing cardiac monitoring solutions based on features and implementation cost.',
+    },
+    {
+      title: 'Heart Attack Risk Stratification Using Clinically Inspired Derived Labeling and Supervised Learning',
+      authorPosition: '',
+      status: 'Submitted',
+      venue: 'ICCA 2026 · April 2026',
+      summary: 'Healthcare AI research using clinically informed labeling for cardiovascular risk assessment. Investigated Logistic Regression, Random Forest, and XGBoost, evaluating Accuracy, Precision, Recall, F1-Score, ROC-AUC, and cross-validation.',
+      detail: 'Explored clinically informed labeling approaches to improve prediction reliability.',
+    },
+    {
+      title: 'Software Vulnerability Detection Using Graph Neural Networks',
+      authorPosition: '',
+      status: 'Ongoing thesis',
+      venue: 'AIUB · February 2026 – Present',
+      summary: 'Investigating Graph Neural Networks and source-code graph representations for automated software vulnerability detection; preparing research findings for international publication.',
+      detail: '',
+    },
+  ],
+  volunteer: {
+    role: 'Official Volunteer',
+    event: 'Artificial Intelligence and Molecular Design Symposium 2026',
+    details: 'Provided participant support by assisting attendees with event-related guidance and information.',
+  },
+  certifications: [
+    'Software engineering and project-based development work',
+    'Applied database, UML, and system design experience',
+    'Collaborative development and professional workflow practices',
+  ],
+  contact: {
+    email: 'isratjahanchowdhury07@gmail.com',
+    phone: '01710443216',
+    github: 'https://github.com/IsratJahanChowdhury',
+    linkedin: 'https://www.linkedin.com/in/israt-jahan-chowdhury-6126aa420/',
+    researchgate: 'https://www.researchgate.net/profile/Israt-Chowdhury-5',
+    location: 'Dhaka, Bangladesh',
+    availability: 'Open for collaboration, internships, and software engineering opportunities.',
+  },
+};
